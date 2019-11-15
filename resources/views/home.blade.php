@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<pagina tamanho="10">
+<pagina tamanho="8">
     <painel titulo="Dashboard">
         <div class="row">
             <div class="col-md-4">
-                <caixa quantidade="80" titulo="Artigos" url="#" cor="#dc3545" icone="ion ion-pie-graph"></caixa>
+                <caixa quantidade="80" titulo="Artigos" url="{{route('artigos.index')}}" cor="#dc3545" icone="ion ion-pie-graph"></caixa>
             </div>
             <div class="col-md-4">
                 <caixa quantidade="60%" titulo="Graficos" url="#" cor="#ffc107" icone="ion ion-quote"></caixa>
